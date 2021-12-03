@@ -7,8 +7,7 @@ function compute()
     var interest = principal * years * rate /100; //variable interest
     var year = new Date().getFullYear()+parseInt(years);
     var amount = interest + principal; //Variable to calculate Total amount recieved
-    document.getElementById('amount').innerHTML = amount.toFixed(2);
-    
+        
     document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>" 
 }
 
